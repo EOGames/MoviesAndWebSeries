@@ -51,8 +51,7 @@ code {
 
 #serchbar
 {
-  align-self: center;
-  width: 10vw;
+  width: 20vw;
 }
 
 #videoListHolder
@@ -107,6 +106,42 @@ code {
 
 iframe, object, embed {
   max-width: 100%;
+}
+
+.preview_Holder
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.preview
+{
+  width: 20%;
+  padding: 5px;
+  animation: AnimatePreview 2s infinite;
+  border-radius: 5%;
+}
+
+#topText
+{
+  color: white;
+  font-weight: 900;
+  text-shadow: 1px 1px 5px #94f8ff;
+  text-align: center;
+}
+
+@keyframes AnimatePreview
+{
+  50%
+  {
+    border: 2px solid rgb(160, 64, 64);
+  }
+
+  100%
+  {
+    border: 2px solid skyblue;
+  }
 }
 
 @media screen and (max-width: 1200px)

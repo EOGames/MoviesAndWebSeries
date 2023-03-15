@@ -1,9 +1,10 @@
-import Activebar from './Activebar';
-import Header from './Header';
+
 import VideoList from './VideoList';
-import { data, shows } from './database';
+import { data, shows} from './database';
 import { Routes,Route } from 'react-router-dom';
 import SlideShow from './SlideShow';
+import Topbar from './Topbar';
+import SerchBar from './SerchBar';
 
 function App() {
   return (
@@ -25,9 +26,8 @@ function Home ()
 {
   return (
     <div>
-      <Header />
-      <Activebar />
-      <SlideShow />
+      <Topbar />
+      <SlideShow   />
         </div>
   );
 }
@@ -36,8 +36,8 @@ function Movies()
 {
   return (
     <div>
-      <Header />
-      <Activebar />
+      <Topbar />
+      <SerchBar />
       <VideoList list = {data} />    </div>
   );
 }
@@ -46,8 +46,11 @@ function Shows()
 {
   return (
     <div>
-      <Header />
-      <Activebar />
-      <VideoList list = {shows} />    </div>
+            <Topbar />
+            <SerchBar />
+            <VideoList list = {shows} />  
+    </div>
   );
 }
+
+
