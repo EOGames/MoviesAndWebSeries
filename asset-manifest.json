@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EOGames/MoviesAndWebSeries/static/css/main.545313d5.css",
-    "main.js": "/EOGames/MoviesAndWebSeries/static/js/main.7d2751ec.js",
-    "static/js/787.14e4bc02.chunk.js": "/EOGames/MoviesAndWebSeries/static/js/787.14e4bc02.chunk.js",
-    "index.html": "/EOGames/MoviesAndWebSeries/index.html",
-    "main.545313d5.css.map": "/EOGames/MoviesAndWebSeries/static/css/main.545313d5.css.map",
-    "main.7d2751ec.js.map": "/EOGames/MoviesAndWebSeries/static/js/main.7d2751ec.js.map",
-    "787.14e4bc02.chunk.js.map": "/EOGames/MoviesAndWebSeries/static/js/787.14e4bc02.chunk.js.map"
+    "main.css": "/MoviesAndWebSeries/static/css/main.545313d5.css",
+    "main.js": "/MoviesAndWebSeries/static/js/main.17175f41.js",
+    "static/js/787.14e4bc02.chunk.js": "/MoviesAndWebSeries/static/js/787.14e4bc02.chunk.js",
+    "index.html": "/MoviesAndWebSeries/index.html",
+    "main.545313d5.css.map": "/MoviesAndWebSeries/static/css/main.545313d5.css.map",
+    "main.17175f41.js.map": "/MoviesAndWebSeries/static/js/main.17175f41.js.map",
+    "787.14e4bc02.chunk.js.map": "/MoviesAndWebSeries/static/js/787.14e4bc02.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.545313d5.css",
-    "static/js/main.7d2751ec.js"
+    "static/js/main.17175f41.js"
   ]
 }
