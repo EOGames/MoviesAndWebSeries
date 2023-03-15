@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EOGames/MoviesAndWebSeries-Assignment-/static/css/main.545313d5.css",
+    "main.js": "/EOGames/MoviesAndWebSeries-Assignment-/static/js/main.0d999bb9.js",
+    "static/js/787.14e4bc02.chunk.js": "/EOGames/MoviesAndWebSeries-Assignment-/static/js/787.14e4bc02.chunk.js",
+    "index.html": "/EOGames/MoviesAndWebSeries-Assignment-/index.html",
+    "main.545313d5.css.map": "/EOGames/MoviesAndWebSeries-Assignment-/static/css/main.545313d5.css.map",
+    "main.0d999bb9.js.map": "/EOGames/MoviesAndWebSeries-Assignment-/static/js/main.0d999bb9.js.map",
+    "787.14e4bc02.chunk.js.map": "/EOGames/MoviesAndWebSeries-Assignment-/static/js/787.14e4bc02.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.545313d5.css",
+    "static/js/main.0d999bb9.js"
+  ]
+}
