@@ -54,6 +54,12 @@ code {
   width: 20vw;
 }
 
+.srchHolder
+{
+  display: flex;
+  justify-content: center;
+  padding: 20px
+}
 #videoListHolder
 {
   display: flex;
@@ -184,7 +190,7 @@ iframe, object, embed {
       padding: 1em;
     }
 
-        .video
+     .video
     {
       width: 95%;
       height: 30vh;
@@ -193,7 +199,7 @@ iframe, object, embed {
     }
     #serchbar
     {
-      width: 40%;
+      width: 70%;
     }
 
 }
