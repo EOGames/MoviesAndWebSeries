@@ -1,7 +1,7 @@
 {
   "name": "movies",
   "version": "0.1.0",
-  "homepage": "https://github.com/EOGames/MoviesAndWebSeries-Assignment-",
+  "homepage": "https://eogames.github.io/MoviesAndWebSeries",
   "private": true,
   "dependencies": {
     "-": "^0.0.1",
