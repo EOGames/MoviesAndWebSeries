@@ -16,6 +16,7 @@ const App = function()
             <Route path='/' element = {<Home />} />
             <Route path='/movies' element = {<Movies />} />
             <Route path='/shows' element = {<Shows  />} />
+            {/* <Route path='/login' element = {<Login  />} /> */}
           </Routes>
         </div>
         );    
@@ -122,5 +123,17 @@ class Shows extends React.Component
       );
     }
 }
+
+// const Login = function()
+// {
+//     return (
+//         <div>
+//                 <p>Admin Panel</p>
+//                 <input type={'text'} placeholder ='enter id' />
+//                 <input type={'password'} placeholder ='enter password' />
+//                 <button onClick={''}>Login</button>
+//         </div>
+//     );
+// }
 
 

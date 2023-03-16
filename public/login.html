@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+
+    <div>
+        <p>Admin Panel</p>
+        
+            <input id="user" type='text' placeholder ='enter id' required/>
+            <input id="pass" type='password' placeholder ='enter password' required />
+            <input id="btn_submit" type="button" value="Login" onclick='Login()'>
+      
+        
+</div>
+
+<script>
+    let user = document.getElementById('user');
+let pass = document.getElementById('pass');
+let btn_submit = document.getElementById('btn_submit');
+// btn_submit.addEventListener('onclick',Login);
+
+    function Login()
+    {
+        console.log("User = " +user.value);
+        console.log("pass = " +pass.value);
+
+        if (user.value ==="admin" && pass.value === "1234")
+        {
+            console.log("Logged In Successfully");
+            ShowData();
+        }else
+        {
+            console.log("User Or Password Inccorect");
+        }  
+        
+    }
+
+    function ShowData()
+    {
+        open('data.html');
+        
+    }
+</script>
+</body>
+</html>
+
