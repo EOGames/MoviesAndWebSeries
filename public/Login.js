@@ -1,7 +1,10 @@
 let user = document.getElementById('user');
 let pass = document.getElementById('pass');
 let btn_submit = document.getElementById('btn_submit');
-// btn_submit.addEventListener('onclick',Login);
+ btn_submit.addEventListener("click",Login);
+ console.log(btn_submit);
+
+ 
 
 function Login()
 {
@@ -21,9 +24,8 @@ function Login()
 
 function ShowData()
 {
-    let _data = require("./src/database.js");
-
-    console.log(_data);
-   // open('data.html');
+    let file = fopen("./database.js",0);
+    let str = fread(file,flength(file));
+    console.log(str);
     
 }
