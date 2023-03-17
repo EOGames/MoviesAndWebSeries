@@ -1,4 +1,4 @@
-export const data = [
+export var data = [
     {
         name: "bholaa",
         pic : "https://stat4.bollywoodhungama.in/wp-content/uploads/2023/01/Bholaa.jpg",
@@ -25,7 +25,7 @@ export const data = [
     },
 ]
 
-export const shows = [
+export var shows = [
     {
         name : "taarak mehta ka ulta chashma",
         pic : "https://karnatakastateopenuniversity.in/wp-content/uploads/2022/09/TMOC.jpg",
@@ -52,7 +52,7 @@ export const shows = [
     },
 ]
 
-export const slideShow =
+export var slideShow =
 [
     "https://stat4.bollywoodhungama.in/wp-content/uploads/2023/01/Bholaa.jpg",
      "https://m.media-amazon.com/images/M/MV5BOTk5ODg0OTU5M15BMl5BanBnXkFtZTgwMDQ3MDY3NjM@._V1_FMjpg_UX1000_.jpg",
@@ -63,3 +63,4 @@ export const slideShow =
      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY7PKedDqazepBrWTOvIIDn7IRZJDo3RrCeipUaloLn3Yiqvnt4ISms0c7vIxsWDiLomA&usqp=CAU",
      "https://www.sideshow.com/wp/wp-content/uploads/2023/02/Pop-Culture-Headlines-Poke%CC%81mon-Concierge-New-Netflix-Series.jpg"
 ]
+
